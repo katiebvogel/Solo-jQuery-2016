@@ -1,3 +1,7 @@
+.container {
+  display: block;
+  width: 1000px; 
+}
 .color-cube {
   width: 100px;
   height: 100px;

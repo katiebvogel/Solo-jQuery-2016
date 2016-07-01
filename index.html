@@ -2,22 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+    <script src="app.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title></title>
   </head>
   <body>
-    <p id="red">Total red: 0</p>
-    <p id="yellow">Total yellow: 0</p>
-    <p id="green">Total green: 0</p>
-    <p id="blue">Total blue: 0</p>
-    
-    
-    <button class="color-button" data-color="red">Red</button>
-    <button class="color-button" data-color="yellow">Yellow</button>
-    <button class="color-button" data-color="green">Green</button>
-    <button class="color-button" data-color="blue">Blue</button>
-    
+    <p id="red">Total red:</p>
+    <section class = "answerFieldRed"></section>
+    <p id="yellow">Total yellow:</p>
+    <section class = "answerFieldYellow"></section>
+    <p id="green">Total green:</p>
+    <section class = "answerFieldGreen"></section>
+    <p id="blue">Total blue:</p>
+    <section class = "answerFieldBlue"></section>
+
+  <section>
+    <button class="color-button" data-class="red">Red</button>
+    <button class="color-button" data-class="yellow">Yellow</button>
+    <button class="color-button" data-class="green">Green</button>
+    <button class="color-button" data-class="blue">Blue</button>
+  </section>
     <div class="container">
+      <div class="color-cube">
+
+
+
+      </div>
     </div>
   </body>
 </html>
