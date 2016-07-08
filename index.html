@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -8,14 +8,10 @@
     <title></title>
   </head>
   <body>
-    <p id="red">Total red:</p>
-    <section class = "answerFieldRed"></section>
-    <p id="yellow">Total yellow:</p>
-    <section class = "answerFieldYellow"></section>
-    <p id="green">Total green:</p>
-    <section class = "answerFieldGreen"></section>
-    <p id="blue">Total blue:</p>
-    <section class = "answerFieldBlue"></section>
+    <p id="red">Total red:<span id = "redCount"></span></p>
+    <p id="yellow">Total red:<span id = "yellow"></span></p>
+    <p id="blue">Total red:<span id = "blue"></span></p>
+    <p id="green">Total red:<span id = "green"></span></p>
 
   <section>
     <button class="color-button" data-class="red">Red</button>
@@ -24,11 +20,38 @@
     <button class="color-button" data-class="blue">Blue</button>
   </section>
     <div class="container">
-      <div class="color-cube">
-
 
 
       </div>
+    </div>
+  </body>
+</html> -->
+
+
+<!-- below is the re-try html almost the original/given -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+    <script src="app2.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+    <p id="red">Total red: <span id ="redCount">0</span></p>
+    <p id="yellow">Total yellow: <span id = "yellowCount">0</span></p>
+    <p id="green">Total green: <span id = "greenCount">0</span></p>
+    <p id="blue">Total blue: <span id = "blueCount">0</span></p>
+
+
+    <button class="color-button" data-color="red">Red</button>
+    <button class="color-button" data-color="yellow">Yellow</button>
+    <button class="color-button" data-color="green">Green</button>
+    <button class="color-button" data-color="blue">Blue</button>
+
+    <div class="container">
     </div>
   </body>
 </html>
