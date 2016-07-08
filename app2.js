@@ -8,10 +8,8 @@ $(document).ready(function(){
 
   function updateCount(color){
     var $domElement = $('#' + color + 'Count');
-    console.log($domElement.text());
     var currentNumber = $domElement.text();
     var newCount = parseInt(currentNumber) + 1;
-    console.log(newCount);
     $domElement.text(newCount);
   }
 
